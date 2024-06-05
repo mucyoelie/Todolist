@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background:linear-gradient(90deg,rgb(0,30,0),rgb(0,0,30));
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    margin: 0;
+    color: rgb(30,40,127);
+}
+.container{
+    background-color: aliceblue;
+    width: 40%;
+    height: 20%;
+    text-align: center;
+    padding: 20px;
+}
+input-group{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+#new-task {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+    right: 5px;
+    width: 45%;
+    top:1px;
+    height: 20px;
+}
+#button1{
+background:linear-gradient(90deg,rgb(0,80,0),rgb(0,0,80));;
+width: 100px;
+height: 41px;
+border-radius: 5px;
+color: aliceblue;
+border: 1px solid white;
+}
+#button2{
+    background-color:red;
+    height: 41px;
+    width: 100px;
+    border-radius: 5px;
+    color: aliceblue;
+    border: 1px solid white;
+    }
