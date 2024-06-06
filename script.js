@@ -18,7 +18,7 @@ taskList.addEventListener("click",function(e){
     if(e.target.tagName === "LI"){
         e.classList.toggle("checked");
     }
-    else if(e.target.tagName ==="SPAN"){
+    else if(e.target.tagName === "SPAN"){
         e.parentElement.remove();
     }
 },false);

@@ -1,19 +1,23 @@
 body {
     font-family: Arial, sans-serif;
     background:linear-gradient(90deg,rgb(0,30,0),rgb(0,0,30));
-    display: flex;
-    justify-content: center;
-    align-items:center;
     height: 100vh;
     margin: 0;
-    color: rgb(30,40,127);
+    color: rgb(30,40,127); text-align: center;
+    padding: 20px;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+
 }
 .container{
     background-color: aliceblue;
-    width: 40%;
-    height: 20%;
-    text-align: center;
-    padding: 20px;
+    width: 60%;
+    height: 50%;
+    margin: 150px auto 150px auto;
+}
+.container h1{
+   flex-direction: column;
 }
 input-group{
     display: flex;
@@ -48,3 +52,28 @@ border: 1px solid white;
     color: aliceblue;
     border: 1px solid white;
     }
+   ul li{
+    list-style: none;
+    cursor: pointer;
+    font-size: 17px;
+    user-select: none;
+    padding:12px 8px 12px 50px;
+    position: relative;
+   } 
+   ul li::before{
+    content: '';
+    position: absolute;
+    width:28px;
+    height:28px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    top:12px;
+    left: 8px;
+
+   }
+   ul li.checked{
+    color: green;
+    text-decoration: line-through;
+   }
+    
