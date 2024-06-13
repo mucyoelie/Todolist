@@ -119,6 +119,7 @@ margin: auto;
             font-size: 16px;
             text-align: center;
             padding-left: 14px;
+            overflow-x: hidden;
         }
         #button1{
             width: 110px;
